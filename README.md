@@ -1,4 +1,4 @@
-![Vamos](./.vamos/toy-samples.jpg)
+![Vamos](etc/toy-samples.jpg)
 
 # Toy Samples
 
