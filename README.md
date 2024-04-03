@@ -13,11 +13,11 @@ This step is only required if `vamos` is not yet installed and can otherwise be 
 In a `BASH` shell with `curl` installed run the following `curl` formula:
 
 ```
-  curl -s https://raw.githubusercontent.com/jmpstart/vamos/main/vamos >~vamos; . ~vamos -!
+  curl -s https://raw.githubusercontent.com/bluccino/tool-vamos/master/bin/vamos >~vamos; . ~vamos -!
 ```
 
 In the following you need `git` installed and `python3` ready for working with
-virtual environments. If this is not the case consult https://github.com/jmpstart/vamos/blob/main/README.md.
+virtual environments. If this is not the case consult https://github.com/bluccino/tool-vamos/blob/master/README.md.
 
 --------------------------------------------------------------------------------
 
@@ -28,10 +28,10 @@ With `vamos` installed, choose a convenient working directory for creation of a
 git repository folder `toy-samples` by invoking:
 
 ```
-    vamos @jmpstart/toy-samples
+    vamos @bluccino/toy-samples
 ```
 
-This causes `vamos` to clone repository https://github.com/jmpstart/toy-samples
+This causes `vamos` to clone repository https://github.com/bluccino/toy-samples
 and setup a playground (toy-samples) managed by a virtual Python environment
 `@toy`. In case of a success message you also get a hint
 that command `?` has been provided for quick help regarding the playground.
@@ -136,7 +136,7 @@ Invoking command
 
 runs a two-phase `vamos` installation process. In phase 1 the following three steps are performed:
 
-* clone repository ´https://github.com/jmpstart/toy-samples.git into a new created folder `./toy-samples`
+* clone repository ´https://github.com/bluccino/toy-samples into a new created folder `./toy-samples`
 * subsequently the working directory is changed to this folder
 * and startup script ./.vamos/bin/startup is `sourced` (executed in current BASH environment)
 
